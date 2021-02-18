@@ -1,0 +1,57 @@
+div {
+    border: 1px solid rgb(180, 174, 113);
+}
+
+.section {
+    background-color: bisque;
+    height: 100vh;
+}
+
+.section-flex {
+    display: flex;
+}
+
+.soninis-meniu {
+    flex-basis: 30%;
+    
+}
+
+.desinys-content {
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    
+}
+    
+#pirmas-turinys {
+	display: initial;
+}
+.turinys {
+    display: none;
+    margin: 5vh;
+    border: 2px solid rgb(196, 160, 42);
+    border-radius: 12px;
+    padding: 10px;
+}
+#listleft {
+    list-style: none;
+    border-radius: 12px;
+    margin: 15px;
+}
+.hov {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    background-color: burlywood;
+    
+    
+    
+}
+li:hover{
+        background-color: rgb(196, 160, 42);
+      
+}

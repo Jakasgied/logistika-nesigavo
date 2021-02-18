@@ -37,6 +37,7 @@ div {
     list-style: none;
     border-radius: 12px;
     margin: 15px;
+with: 20px;
 }
 .hov {
     cursor: pointer;
